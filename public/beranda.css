@@ -1,0 +1,54 @@
+.navbar{
+    background-color: rgb(124, 184, 147);
+    
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+
+
+
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Sesuaikan dengan kebutuhan Anda */
+    align-items: flex-start; /* Sesuaikan dengan kebutuhan Anda */
+    margin-top: 26px;
+}
+
+.card-produk {
+    width: 350px;
+    margin-right: 30px;
+    border: 1px solid transparent;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    transition: border-color 0.3s ease-in-out;
+    flex: 0 0 calc(33.3333% - 30px); 
+}
+
+.card-produk img {
+    width: 55%; 
+}
+
+.card-produk img:hover {
+    transform: scale(1.1);
+}
+
+.card-bodyy {
+    margin-top: 30px;
+}
+
+.card-body img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-body img:hover {
+    transform: scale(1.1);
+}
+
+
